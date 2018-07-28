@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+".\build\main.o"
+".\build\system_stm32f10x.o"
+".\build\startup_stm32f10x_md.o"
+".\build\dap.o"
+".\build\jtag_dp.o"
+".\build\sw_dp.o"
+".\build\swo.o"
+".\build\misc.o"
+".\build\stm32f10x_flash.o"
+".\build\stm32f10x_gpio.o"
+".\build\stm32f10x_rcc.o"
+".\build\dma_stm32f10x.o"
+".\build\gpio_stm32f10x.o"
+".\build\usart_stm32f10x.o"
+".\build\usb_config.o"
+".\build\usbd_stm32f103.o"
+".\build\usbd_user_hid.o"
+".\build\usbd_user_cdc_acm.o"
+".\USB\USB_CM3.lib"
+--library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\F103-DAP-SWO-CDC-BLUEPILL.map" -o .\build\F103-DAP-SWO-CDC-BLUEPILL.axf
