@@ -1,0 +1,7 @@
+.\CMSIS-DAP
+.\USB
+.\User
+.\Driver\STM32F10x_ARM_Driver
+.\Driver\STM32F10x_StdPeriph_Driver\inc
+C:\Keil\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+C:\Keil\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include

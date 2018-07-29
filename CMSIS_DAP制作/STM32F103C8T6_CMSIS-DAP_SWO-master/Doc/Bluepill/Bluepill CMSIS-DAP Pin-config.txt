@@ -1,0 +1,63 @@
+CMSIS-DAP for BluePill Board
+  2018-06-28
+
+SWD-Remap version:---------------------
+
+Signal               GPIO Port
+
+SWD mode:
+SWDIO                PA13(SWD)
+SWCLK                PA14(SWC)
+SWO                  PB7
+nRESET               PB6
+
+JTAG mode:
+JTMS                 PA13(SWD)
+JTCK                 PA14(SWC)
+JTDO                 PB7
+nRESET               PB6
+JTDI                 PB5
+nTRST                not available
+
+
+
+SWD-unRemap version:-------------------
+
+SWD mode:
+SWDIO                PB9
+SWCLK                PB8
+SWO                  PB7
+nRESET               PB6
+
+JTAG mode:
+JTMS                 PB9
+JTCK                 PB8
+JTDO                 PB7
+nRESET               PB6
+JTDI                 PB5
+nTRST                not available
+
+
+---------------------------------------
+CDC Function:
+UART2-TX             PA2
+UART2-RX             PA3
+
+---------------------------------------
+SWD Test passed!
+JTAG Test passed!
+
+Individual test results:
+Execution breakpoint: passed
+Breakpoint on read:   passed
+Breakpoint on write:  passed
+Register read:        passed
+Register write:       passed
+Memory read:          passed
+Memory write:         passed
+Control flow:         passed
+
+CDC function:         OK
+SWO function:         OK for printf-to-SWO
+Soft-Reset function:  OK for Cortex-M
+---------------------------------------
