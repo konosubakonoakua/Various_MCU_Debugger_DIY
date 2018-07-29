@@ -1,0 +1,19 @@
+--cpu Cortex-M3
+".\build\cmsis-dap-stlink21\startup_stm32f10x_md.o"
+".\build\cmsis-dap-stlink21\system_stm32f10x.o"
+".\build\cmsis-dap-stlink21\cmsis-dap.o"
+".\build\cmsis-dap-stlink21\userapp.o"
+".\build\cmsis-dap-stlink21\usb_config.o"
+".\build\cmsis-dap-stlink21\usbd_stm32f103.o"
+".\build\cmsis-dap-stlink21\usbd_user_cdc_acm.o"
+".\build\cmsis-dap-stlink21\usbd_user_hid.o"
+".\USB_CM3.lib"
+".\build\cmsis-dap-stlink21\stm32f10x_gpio.o"
+".\build\cmsis-dap-stlink21\stm32f10x_rcc.o"
+".\build\cmsis-dap-stlink21\stm32f10x_usart.o"
+".\build\cmsis-dap-stlink21\stm32f10x_flash.o"
+".\build\cmsis-dap-stlink21\misc.o"
+--library_type=microlib --strict --scatter ".\CMSIS_DAP-C8.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\CMSIS-DAP-STLINK21\CMSIS-DAP-STLINK21.map" -o .\build\CMSIS-DAP-STLINK21\CMSIS-DAP-STLINK21.axf

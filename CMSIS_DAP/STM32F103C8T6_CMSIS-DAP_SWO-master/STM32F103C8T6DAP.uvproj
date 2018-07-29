@@ -149,7 +149,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>4</TargetSelection>
+          <TargetSelection>3</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -163,7 +163,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>Segger\JL2CM3.dll</Driver>
+            <Driver>BIN\CMSIS_AGDI.dll</Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -374,7 +374,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_STDPERIPH_DRIVER STM32F10X_MD BLUEPILL SWO_PB7</Define>
+              <Define>USE_STDPERIPH_DRIVER STM32F10X_MD BLUEPILL SWO_PB7 SWD_REMAP</Define>
               <Undefine></Undefine>
               <IncludePath>.\CMSIS-DAP;.\USB;.\User;.\Driver\STM32F10x_ARM_Driver;.\Driver\STM32F10x_StdPeriph_Driver\inc;C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include;C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include</IncludePath>
             </VariousControls>

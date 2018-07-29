@@ -232,15 +232,15 @@ typedef enum Pin_e {
 
 // TDI Pin (output)
 #define PIN_TDI_PORT        GPIOB
-#define PIN_TDI_PIN         5
+#define PIN_TDI_PIN         6
 
 // SWDIO/TMS Pin
-#define PIN_SWDIO_TMS_PORT  GPIOA   //remapped
-#define PIN_SWDIO_TMS_PIN   13
+#define PIN_SWDIO_TMS_PORT  GPIOB   //remapped
+#define PIN_SWDIO_TMS_PIN   4
 
 // SWCLK/TCK Pin
-#define PIN_SWCLK_TCK_PORT  GPIOA   //remapped
-#define PIN_SWCLK_TCK_PIN   14
+#define PIN_SWCLK_TCK_PORT  GPIOB   //remapped
+#define PIN_SWCLK_TCK_PIN   5
 
 // TDO/SWO Pin (input)              //remap USART1_Rx_Pin to PB7 for SWO
 #define PIN_TDO_PORT        GPIOB
@@ -248,7 +248,7 @@ typedef enum Pin_e {
 
 // nRESET Pin
 #define PIN_nRESET_PORT     GPIOB
-#define PIN_nRESET_PIN      6
+#define PIN_nRESET_PIN      0
 
 #else //#if defined ( SWD_REMAP )
 
@@ -270,7 +270,7 @@ typedef enum Pin_e {
 
 // nRESET Pin
 #define PIN_nRESET_PORT     GPIOB
-#define PIN_nRESET_PIN      3
+#define PIN_nRESET_PIN      0
 
 #endif //#if defined ( SWD_REMAP )
 
@@ -384,9 +384,9 @@ typedef enum Pin_e {
 #define LED_CONNECTED_PORT  GPIOA
 #define LED_CONNECTED_PIN   9
 
-#define LED_RUNNING_RCC     RCC_APB2ENR_IOPCEN //PC13 - Bluepill
-#define LED_RUNNING_PORT    GPIOC
-#define LED_RUNNING_PIN     13
+#define LED_RUNNING_RCC     RCC_APB2ENR_IOPAEN //PC13 - Bluepill
+#define LED_RUNNING_PORT    GPIOA
+#define LED_RUNNING_PIN     9
 
 #elif defined ( BOARD_V1 ) || defined ( BOARD_V2 )
 
@@ -586,7 +586,7 @@ Status LEDs. In detail the operation of Hardware I/O and LED pins are enabled an
 __STATIC_INLINE uint8_t PIN_SWCLK_TCK_IN(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
   
   return (PIN_SWCLK_TCK_PORT->ODR & PIN_SWCLK_TCK_MASK) ? 1 : 0;
@@ -598,7 +598,7 @@ Set the SWCLK/TCK DAP hardware I/O pin to high level.
 __STATIC_INLINE void PIN_SWCLK_TCK_SET(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
   
   PIN_SWCLK_TCK_PORT->BSRR = PIN_SWCLK_TCK_MASK;
@@ -610,7 +610,7 @@ Set the SWCLK/TCK DAP hardware I/O pin to low level.
 __STATIC_INLINE void PIN_SWCLK_TCK_CLR (void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
   
   PIN_SWCLK_TCK_PORT->BRR = PIN_SWCLK_TCK_MASK;
@@ -624,9 +624,9 @@ __STATIC_INLINE void PIN_SWCLK_TCK_CLR (void)
 __STATIC_INLINE uint8_t PIN_SWDIO_TMS_IN(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   return (PIN_SWDIO_TMS_PORT->IDR & PIN_SWDIO_TMS_MASK) ? 1 : 0;
 }
 
@@ -636,9 +636,9 @@ Set the SWDIO/TMS DAP hardware I/O pin to high level.
 __STATIC_INLINE void PIN_SWDIO_TMS_SET(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   PIN_SWDIO_TMS_PORT->BSRR = PIN_SWDIO_TMS_MASK;
 }
 
@@ -648,9 +648,9 @@ Set the SWDIO/TMS DAP hardware I/O pin to low level.
 __STATIC_INLINE void PIN_SWDIO_TMS_CLR(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   PIN_SWDIO_TMS_PORT->BRR = PIN_SWDIO_TMS_MASK;
 }
 
@@ -660,9 +660,9 @@ __STATIC_INLINE void PIN_SWDIO_TMS_CLR(void)
 __STATIC_INLINE uint8_t PIN_SWDIO_IN (void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   if (PIN_SWDIO_TMS_PORT->IDR & PIN_SWDIO_TMS_MASK)
   return 1;
   return 0;
@@ -674,9 +674,9 @@ __STATIC_INLINE uint8_t PIN_SWDIO_IN (void)
 __STATIC_INLINE void PIN_SWDIO_OUT(uint8_t bit)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   if (bit & 1)
   PIN_SWDIO_TMS_PORT->BSRR = PIN_SWDIO_TMS_MASK;
   else
@@ -690,9 +690,9 @@ called prior \ref PIN_SWDIO_OUT function calls.
 __STATIC_INLINE void PIN_SWDIO_OUT_ENABLE(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   PIN_SWDIO_TMS_OUT_ENABLE();
 }
 
@@ -703,9 +703,9 @@ called prior \ref PIN_SWDIO_IN function calls.
 __STATIC_INLINE void PIN_SWDIO_OUT_DISABLE(void)
 {
 #if defined ( BLUEPILL ) && defined ( SWD_REMAP )
-  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_DISABLE;
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
 #endif
-  
+  AFIO->MAPR |= AFIO_MAPR_SWJ_CFG_JTAGDISABLE;
   PIN_SWDIO_TMS_OUT_DISABLE();
 }
 
