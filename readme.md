@@ -8,6 +8,8 @@
 
 - [x] ## Jlink OB(STM32F072版本)
 
+- [x] ## STLINK V2 bootloader
+
 - [x] ##Jlink V7(废弃，固件不兼容高版本驱动)
 
   ##不懂的地方请加QQ1356781673, 可能会予以帮助
