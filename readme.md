@@ -12,7 +12,11 @@
 
 - [x] ##Jlink V7(废弃，固件不兼容高版本驱动)、
 
-- [x] ##JLINK OB CBT6版本制作
+- [ ] ##JLINK OB C8T6版本制作
+
+- [x] ##JLINK STLINK V2/V2-1 版本制作
+
+- [ ] ##BlackMagicProbe 制作
 
   ##不懂的地方请加QQ1356781673, 可能会予以帮助
 
