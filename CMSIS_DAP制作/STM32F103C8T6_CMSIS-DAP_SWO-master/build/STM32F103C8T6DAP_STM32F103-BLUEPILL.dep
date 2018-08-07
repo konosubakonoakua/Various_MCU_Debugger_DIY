@@ -1,0 +1,437 @@
+Dependencies for Project 'STM32F103C8T6DAP', Target 'STM32F103-BLUEPILL': (DO NOT MODIFY !)
+F (.\User\main.c)(0x5B5D52C7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\main.o --omf_browse .\build\main.crf --depend .\build\main.d)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\RV31\INC\RTL.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RV31\INC\rl_usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_def.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_msc.h)(0x56EBD800)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_desc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_event.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cdc_acm.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hw.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbh.h)(0x559CE078)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (.\USB\usb_config.c)(0x5B5CAB3C)
+I (.\CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (.\CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+F (.\User\stm32f10x_conf.h)(0x5B5CAB3C)()
+F (.\User\system_stm32f10x.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\system_stm32f10x.o --omf_browse .\build\system_stm32f10x.crf --depend .\build\system_stm32f10x.d)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+F (.\User\startup_stm32f10x_md.s)(0x5B5CAB3C)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 526"-o .\build\startup_stm32f10x_md.o --depend .\build\startup_stm32f10x_md.d)
+F (.\CMSIS-DAP\DAP_config.h)(0x5B5D5235)()
+F (.\CMSIS-DAP\DAP.h)(0x5B5CAB3C)()
+F (.\CMSIS-DAP\DAP.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\dap.o --omf_browse .\build\dap.crf --depend .\build\dap.d)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+F (.\CMSIS-DAP\JTAG_DP.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\jtag_dp.o --omf_browse .\build\jtag_dp.crf --depend .\build\jtag_dp.d)
+I (CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+F (.\CMSIS-DAP\SW_DP.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\sw_dp.o --omf_browse .\build\sw_dp.crf --depend .\build\sw_dp.d)
+I (CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+F (.\CMSIS-DAP\SWO.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\swo.o --omf_browse .\build\swo.crf --depend .\build\swo.d)
+I (CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_USART.h)(0x5A55AAC6)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_Common.h)(0x5A55AAC8)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+F (.\Driver\STM32F10x_StdPeriph_Driver\src\misc.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\misc.o --omf_browse .\build\misc.crf --depend .\build\misc.d)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+F (.\Driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\stm32f10x_flash.o --omf_browse .\build\stm32f10x_flash.crf --depend .\build\stm32f10x_flash.d)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+F (.\Driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\stm32f10x_gpio.o --omf_browse .\build\stm32f10x_gpio.crf --depend .\build\stm32f10x_gpio.d)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+F (.\Driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\stm32f10x_rcc.o --omf_browse .\build\stm32f10x_rcc.crf --depend .\build\stm32f10x_rcc.d)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+F (.\Driver\STM32F10x_ARM_Driver\DMA_STM32F10x.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\dma_stm32f10x.o --omf_browse .\build\dma_stm32f10x.crf --depend .\build\dma_stm32f10x.d)
+I (Driver\STM32F10x_ARM_Driver\DMA_STM32F10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\STM32F10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+F (.\Driver\STM32F10x_ARM_Driver\GPIO_STM32F10x.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\gpio_stm32f10x.o --omf_browse .\build\gpio_stm32f10x.crf --depend .\build\gpio_stm32f10x.d)
+I (Driver\STM32F10x_ARM_Driver\GPIO_STM32F10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+F (.\Driver\STM32F10x_ARM_Driver\USART_STM32F10x.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\usart_stm32f10x.o --omf_browse .\build\usart_stm32f10x.crf --depend .\build\usart_stm32f10x.d)
+I (Driver\STM32F10x_ARM_Driver\USART_STM32F10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (Driver\STM32F10x_ARM_Driver\GPIO_STM32F10x.h)(0x5B5CAB3C)
+I (Driver\STM32F10x_ARM_Driver\DMA_STM32F10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_USART.h)(0x5A55AAC6)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_Common.h)(0x5A55AAC8)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (Driver\STM32F10x_ARM_Driver\USART_Config_USART1_Remap.h)(0x5B5CAB3C)
+F (.\USB\usb_config.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\usb_config.o --omf_browse .\build\usb_config.crf --depend .\build\usb_config.d)
+I (C:\opt\Keil_v5\ARM\RV31\INC\usb_lib.c)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RV31\INC\RTL.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RV31\INC\rl_usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_def.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_msc.h)(0x56EBD800)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_desc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_event.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cdc_acm.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hw.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbh.h)(0x559CE078)
+F (.\USB\usbd_STM32F103.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\usbd_stm32f103.o --omf_browse .\build\usbd_stm32f103.crf --depend .\build\usbd_stm32f103.d)
+I (C:\opt\Keil_v5\ARM\RV31\INC\RTL.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RV31\INC\rl_usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_def.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_msc.h)(0x56EBD800)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_desc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_event.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cdc_acm.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hw.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbh.h)(0x559CE078)
+I (USB\usbreg.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (.\CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (USB\usb_config.c)(0x5B5CAB3C)
+F (.\USB\usbd_user_hid.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\usbd_user_hid.o --omf_browse .\build\usbd_user_hid.crf --depend .\build\usbd_user_hid.d)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\RV31\INC\RTL.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RV31\INC\rl_usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_def.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_msc.h)(0x56EBD800)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_desc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_event.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cdc_acm.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hw.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbh.h)(0x559CE078)
+I (USB\usb_config.c)(0x5B5CAB3C)
+I (.\CMSIS-DAP\DAP_config.h)(0x5B5D5235)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (.\CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+F (.\USB\usbd_user_cdc_acm.c)(0x5B5CAB3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS-DAP -I .\USB -I .\User -I .\Driver\STM32F10x_ARM_Driver -I .\Driver\STM32F10x_StdPeriph_Driver\inc -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -I C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include-IC:\opt\Keil_v5\ARM\RV31\INC-IC:\opt\Keil_v5\ARM\CMSIS\Include-IC:\opt\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DBLUEPILL -DSWO_PB7 -DSWD_REMAP-o .\build\usbd_user_cdc_acm.o --omf_browse .\build\usbd_user_cdc_acm.crf --depend .\build\usbd_user_cdc_acm.d)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\RV31\INC\RTL.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RV31\INC\rl_usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_def.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usb_msc.h)(0x56EBD800)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cdc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_core_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_desc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_event.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_adc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cdc_acm.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hid.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_msc.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_cls.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbd_hw.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\RL\USB\INC\usbh.h)(0x559CE078)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_USART.h)(0x5A55AAC6)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_Common.h)(0x5A55AAC8)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (C:\opt\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (USB\usb_config.c)(0x5B5CAB3C)
+I (.\CMSIS-DAP\DAP_Config.h)(0x5B5D5235)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x.h)(0x5B5CAB3C)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\opt\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\system_stm32f10x.h)(0x5B5CAB3C)
+I (.\User\stm32f10x_conf.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5B5CAB3C)
+I (.\Driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5B5CAB3C)
+I (.\CMSIS-DAP\DAP.h)(0x5B5CAB3C)
+F (.\USB\USB_CM3.lib)(0x569BDE44)()

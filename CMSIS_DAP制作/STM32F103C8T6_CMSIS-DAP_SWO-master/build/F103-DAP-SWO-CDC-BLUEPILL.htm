@@ -1,0 +1,2517 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\build\F103-DAP-SWO-CDC-BLUEPILL.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\build\F103-DAP-SWO-CDC-BLUEPILL.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Aug 06 21:41:21 2018
+<BR><P>
+<H3>Maximum Stack Usage =        152 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+DAP_ProcessCommand &rArr; DAP_Transfer &rArr; DAP_SWD_Transfer &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1c]">ADC1_2_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1c]">ADC1_2_IRQHandler</a><BR>
+ <LI><a href="#[ee]">USART_Send</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[ed]">USART_Receive</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1c]">ADC1_2_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[4]">BusFault_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[1f]">CAN1_RX1_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[20]">CAN1_SCE_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[3d]">DAP_ProcessCommand</a> from dap.o(i.DAP_ProcessCommand) referenced from main.o(.constdata)
+ <LI><a href="#[15]">DMA1_Channel1_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel1_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[16]">DMA1_Channel2_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel2_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[17]">DMA1_Channel3_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel3_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[18]">DMA1_Channel4_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel4_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[19]">DMA1_Channel5_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel5_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[1a]">DMA1_Channel6_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel6_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[1b]">DMA1_Channel7_IRQHandler</a> from dma_stm32f10x.o(i.DMA1_Channel7_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[7]">DebugMon_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[10]">EXTI0_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[32]">EXTI15_10_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[11]">EXTI1_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[12]">EXTI2_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[13]">EXTI3_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[14]">EXTI4_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[21]">EXTI9_5_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[e]">FLASH_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[2a]">I2C1_ER_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[29]">I2C1_EV_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[2c]">I2C2_ER_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[2b]">I2C2_EV_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[3a]">LedConnectedOut</a> from main.o(i.LedConnectedOut) referenced from main.o(.constdata)
+ <LI><a href="#[3b]">LedRunningOut</a> from main.o(i.LedRunningOut) referenced from main.o(.constdata)
+ <LI><a href="#[3]">MemManage_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[b]">PVD_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[8]">PendSV_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[f]">RCC_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[33]">RTCAlarm_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[d]">RTC_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[61]">Reset_Handler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[2d]">SPI1_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[2e]">SPI2_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[6]">SVC_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[9]">SysTick_Handler</a> from main.o(i.SysTick_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[36]">SystemInit</a> from system_stm32f10x.o(i.SystemInit) referenced from startup_stm32f10x_md.o(.text)
+ <LI><a href="#[c]">TAMPER_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[22]">TIM1_BRK_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[25]">TIM1_CC_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[24]">TIM1_TRG_COM_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[23]">TIM1_UP_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[26]">TIM2_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[27]">TIM3_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[28]">TIM4_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[39]">UART_Callback</a> from usbd_user_cdc_acm.o(i.UART_Callback) referenced from usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortInitialize)
+ <LI><a href="#[49]">USART1_Control</a> from usart_stm32f10x.o(i.USART1_Control) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[40]">USART1_GetCapabilities</a> from usart_stm32f10x.o(i.USART1_GetCapabilities) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[4c]">USART1_GetModemStatus</a> from usart_stm32f10x.o(i.USART1_GetModemStatus) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[48]">USART1_GetRxCount</a> from usart_stm32f10x.o(i.USART1_GetRxCount) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[4a]">USART1_GetStatus</a> from usart_stm32f10x.o(i.USART1_GetStatus) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[47]">USART1_GetTxCount</a> from usart_stm32f10x.o(i.USART1_GetTxCount) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[2f]">USART1_IRQHandler</a> from usart_stm32f10x.o(i.USART1_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[41]">USART1_Initialize</a> from usart_stm32f10x.o(i.USART1_Initialize) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[43]">USART1_PowerControl</a> from usart_stm32f10x.o(i.USART1_PowerControl) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[45]">USART1_Receive</a> from usart_stm32f10x.o(i.USART1_Receive) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[44]">USART1_Send</a> from usart_stm32f10x.o(i.USART1_Send) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[4b]">USART1_SetModemControl</a> from usart_stm32f10x.o(i.USART1_SetModemControl) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[46]">USART1_Transfer</a> from usart_stm32f10x.o(i.USART1_Transfer) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[42]">USART1_Uninitialize</a> from usart_stm32f10x.o(i.USART1_Uninitialize) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[56]">USART2_Control</a> from usart_stm32f10x.o(i.USART2_Control) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[4d]">USART2_GetCapabilities</a> from usart_stm32f10x.o(i.USART2_GetCapabilities) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[59]">USART2_GetModemStatus</a> from usart_stm32f10x.o(i.USART2_GetModemStatus) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[55]">USART2_GetRxCount</a> from usart_stm32f10x.o(i.USART2_GetRxCount) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[57]">USART2_GetStatus</a> from usart_stm32f10x.o(i.USART2_GetStatus) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[54]">USART2_GetTxCount</a> from usart_stm32f10x.o(i.USART2_GetTxCount) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[30]">USART2_IRQHandler</a> from usart_stm32f10x.o(i.USART2_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[4e]">USART2_Initialize</a> from usart_stm32f10x.o(i.USART2_Initialize) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[50]">USART2_PowerControl</a> from usart_stm32f10x.o(i.USART2_PowerControl) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[52]">USART2_Receive</a> from usart_stm32f10x.o(i.USART2_Receive) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[51]">USART2_Send</a> from usart_stm32f10x.o(i.USART2_Send) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[58]">USART2_SetModemControl</a> from usart_stm32f10x.o(i.USART2_SetModemControl) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[53]">USART2_Transfer</a> from usart_stm32f10x.o(i.USART2_Transfer) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[4f]">USART2_Uninitialize</a> from usart_stm32f10x.o(i.USART2_Uninitialize) referenced from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[31]">USART3_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[38]">USART_Callback</a> from swo.o(i.USART_Callback) referenced from swo.o(i.UART_SWO_Mode)
+ <LI><a href="#[3f]">USARTx_GetVersion</a> from usart_stm32f10x.o(i.USARTx_GetVersion) referenced 2 times from usart_stm32f10x.o(.constdata)
+ <LI><a href="#[5e]">USBD_CDC_ACM_EP_BULK_Event</a> from usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_BULK_Event) referenced from usb_config.o(.constdata)
+ <LI><a href="#[5d]">USBD_CDC_ACM_EP_INTIN_Event</a> from usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_INTIN_Event) referenced from usb_config.o(.constdata)
+ <LI><a href="#[60]">USBD_Configure_Event</a> from usb_config.o(i.USBD_Configure_Event) referenced from usb_config.o(.constdata)
+ <LI><a href="#[5c]">USBD_EndPoint0</a> from usbd_core.o(i.USBD_EndPoint0) referenced from usb_config.o(.constdata)
+ <LI><a href="#[5f]">USBD_HID_EP_INT_Event</a> from usbd_hid.o(i.USBD_HID_EP_INT_Event) referenced from usb_config.o(.constdata)
+ <LI><a href="#[5a]">USBD_Reset_Event</a> from usb_config.o(i.USBD_Reset_Event) referenced from usb_config.o(.constdata)
+ <LI><a href="#[5b]">USBD_SOF_Event</a> from usb_config.o(i.USBD_SOF_Event) referenced from usb_config.o(.constdata)
+ <LI><a href="#[34]">USBWakeUp_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[1d]">USB_HP_CAN1_TX_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[1e]">USB_LP_CAN1_RX0_IRQHandler</a> from usbd_stm32f103.o(i.USB_LP_CAN1_RX0_IRQHandler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[5]">UsageFault_Handler</a> from main.o(i.HardFault_Handler) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[3e]">UserAppAbort</a> from main.o(i.UserAppAbort) referenced from main.o(.constdata)
+ <LI><a href="#[3c]">UserAppInit</a> from main.o(i.UserAppInit) referenced from main.o(.constdata)
+ <LI><a href="#[a]">WWDG_IRQHandler</a> from startup_stm32f10x_md.o(.text) referenced from startup_stm32f10x_md.o(RESET)
+ <LI><a href="#[37]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f10x_md.o(.text)
+ <LI><a href="#[35]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[37]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(.text)
+</UL>
+<P><STRONG><a name="[155]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[62]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[67]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[156]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[157]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[158]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[159]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[15a]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[61]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+
+<P><STRONG><a name="[1c]"></a>ADC1_2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>CAN1_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>CAN1_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>TIM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>TIM1_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>TIM1_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>USB_HP_CAN1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[73]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Info
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataSend
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataRead
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_report_trigger
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_set_report
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_report
+</UL>
+
+<P><STRONG><a name="[15b]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[15c]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[65]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset$wrapper
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+
+<P><STRONG><a name="[15d]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[15e]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[64]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[f3]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Initialize
+</UL>
+
+<P><STRONG><a name="[15f]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[66]"></a>_memset$wrapper</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[63]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[160]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[68]"></a>BoardInit</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, main.o(i.BoardInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = BoardInit &rArr; LEDS_SETUP &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LEDS_SETUP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[6b]"></a>CDC_ACM_UART_to_USB</STRONG> (Thumb, 110 bytes, Stack size 16 bytes, usbd_user_cdc_acm.o(i.CDC_ACM_UART_to_USB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = CDC_ACM_UART_to_USB &rArr; USBD_CDC_ACM_DataSend
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataSend
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[3d]"></a>DAP_ProcessCommand</STRONG> (Thumb, 400 bytes, Stack size 16 bytes, dap.o(i.DAP_ProcessCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = DAP_ProcessCommand &rArr; DAP_Transfer &rArr; DAP_SWD_Transfer &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessVendorCommand
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Transport
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Status
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Mode
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_ExtendedStatus
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Data
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Control
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Baudrate
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_WriteAbort
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_TransferConfigure
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_TransferBlock
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Transfer
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Sequence
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Pins
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Clock
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_Sequence
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_Configure
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ResetTarget
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_Sequence
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_IDCode
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_Configure
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Info
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_HostStatus
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Disconnect
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Delay
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Connect
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(.constdata)
+</UL>
+<P><STRONG><a name="[7e]"></a>DAP_ProcessVendorCommand</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, dap.o(i.DAP_ProcessVendorCommand))
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[9e]"></a>DAP_Setup</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, dap.o(i.DAP_Setup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DAP_Setup &rArr; PORT_OFF &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_OFF
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UserAppInit
+</UL>
+
+<P><STRONG><a name="[a0]"></a>DMA1_Channel1_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel1_Event))
+<BR><BR>[Called By]<UL><LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[15]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel1_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel1_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a1]"></a>DMA1_Channel2_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel2_Event))
+<BR><BR>[Called By]<UL><LI><a href="#[16]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel2_IRQHandler
+</UL>
+
+<P><STRONG><a name="[16]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel2_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel2_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel2_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a2]"></a>DMA1_Channel3_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel3_Event))
+<BR><BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[17]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel3_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel3_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel3_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a3]"></a>DMA1_Channel4_Event</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.DMA1_Channel4_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DMA1_Channel4_Event &rArr; USART_TX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_TX_DMA_Complete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel4_IRQHandler
+</UL>
+
+<P><STRONG><a name="[18]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel4_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DMA1_Channel4_IRQHandler &rArr; DMA1_Channel4_Event &rArr; USART_TX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel4_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a5]"></a>DMA1_Channel5_Event</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.DMA1_Channel5_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DMA1_Channel5_Event &rArr; USART_RX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_RX_DMA_Complete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel5_IRQHandler
+</UL>
+
+<P><STRONG><a name="[19]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel5_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = DMA1_Channel5_IRQHandler &rArr; DMA1_Channel5_Event &rArr; USART_RX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel5_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a7]"></a>DMA1_Channel6_Event</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.DMA1_Channel6_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DMA1_Channel6_Event &rArr; USART_RX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_RX_DMA_Complete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel6_IRQHandler
+</UL>
+
+<P><STRONG><a name="[1a]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel6_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = DMA1_Channel6_IRQHandler &rArr; DMA1_Channel6_Event &rArr; USART_RX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel6_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a8]"></a>DMA1_Channel7_Event</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.DMA1_Channel7_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DMA1_Channel7_Event &rArr; USART_TX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_TX_DMA_Complete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel7_IRQHandler
+</UL>
+
+<P><STRONG><a name="[1b]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel7_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DMA1_Channel7_IRQHandler &rArr; DMA1_Channel7_Event &rArr; USART_TX_DMA_Complete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel7_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[a9]"></a>DMA_ChannelInitialize</STRONG> (Thumb, 242 bytes, Stack size 16 bytes, dma_stm32f10x.o(i.DMA_ChannelInitialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DMA_ChannelInitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_EnableIRQ
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_ClearPendingIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
+</UL>
+
+<P><STRONG><a name="[ac]"></a>DMA_ChannelUninitialize</STRONG> (Thumb, 174 bytes, Stack size 16 bytes, dma_stm32f10x.o(i.DMA_ChannelUninitialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DMA_ChannelUninitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_DisableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
+</UL>
+
+<P><STRONG><a name="[bb]"></a>Delayms</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, dap.o(i.Delayms))
+<BR><BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_SWD_SETUP
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_JTAG_SETUP
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[10a]"></a>EP_Reset</STRONG> (Thumb, 58 bytes, Stack size 12 bytes, usbd_stm32f103.o(i.EP_Reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = EP_Reset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ResetEP
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClrStallEP
+</UL>
+
+<P><STRONG><a name="[10b]"></a>EP_Status</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, usbd_stm32f103.o(i.EP_Status))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = EP_Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WriteEP
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetStallEP
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReadEP
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnableEP
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DisableEP
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClrStallEP
+</UL>
+
+<P><STRONG><a name="[ae]"></a>FLASH_ErasePage</STRONG> (Thumb, 72 bytes, Stack size 12 bytes, stm32f10x_flash.o(i.FLASH_ErasePage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = FLASH_ErasePage &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HID_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[b1]"></a>FLASH_GetBank1Status</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, stm32f10x_flash.o(i.FLASH_GetBank1Status))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[b9]"></a>FLASH_Lock</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_flash.o(i.FLASH_Lock))
+<BR><BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HID_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[b0]"></a>FLASH_ProgramHalfWord</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, stm32f10x_flash.o(i.FLASH_ProgramHalfWord))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HID_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[b8]"></a>FLASH_Unlock</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_flash.o(i.FLASH_Unlock))
+<BR><BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HID_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[af]"></a>FLASH_WaitForLastOperation</STRONG> (Thumb, 38 bytes, Stack size 4 bytes, stm32f10x_flash.o(i.FLASH_WaitForLastOperation))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_GetBank1Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+</UL>
+
+<P><STRONG><a name="[f4]"></a>GPIO_AFConfigure</STRONG> (Thumb, 146 bytes, Stack size 12 bytes, gpio_stm32f10x.o(i.GPIO_AFConfigure))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_AFConfigure
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Uninitialize
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Initialize
+</UL>
+
+<P><STRONG><a name="[b3]"></a>GPIO_GetPortClockState</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, gpio_stm32f10x.o(i.GPIO_GetPortClockState))
+<BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+</UL>
+
+<P><STRONG><a name="[69]"></a>GPIO_Init</STRONG> (Thumb, 278 bytes, Stack size 24 bytes, stm32f10x_gpio.o(i.GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_USB_CONNECT_SETUP
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_SWD_SETUP
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_OFF
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_JTAG_SETUP
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LEDS_SETUP
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardInit
+</UL>
+
+<P><STRONG><a name="[b2]"></a>GPIO_PinConfigure</STRONG> (Thumb, 120 bytes, Stack size 24 bytes, gpio_stm32f10x.o(i.GPIO_PinConfigure))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_GetPortClockState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Uninitialize
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
+</UL>
+
+<P><STRONG><a name="[b4]"></a>GPIO_PortClock</STRONG> (Thumb, 284 bytes, Stack size 0 bytes, gpio_stm32f10x.o(i.GPIO_PortClock))
+<BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Initialize
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+</UL>
+
+<P><STRONG><a name="[b7]"></a>HID_ProcessCommand</STRONG> (Thumb, 400 bytes, Stack size 32 bytes, usbd_user_hid.o(i.HID_ProcessCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = HID_ProcessCommand &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_Unlock
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_Lock
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_process
+</UL>
+
+<P><STRONG><a name="[4]"></a>BusFault_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>DebugMon_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 122 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HardFault_Handler &rArr; LEDS_SETUP &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delayms
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOn
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOff
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOn
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOff
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LEDS_SETUP
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>MemManage_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>PendSV_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>SVC_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>UsageFault_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, main.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[75]"></a>JTAG_IR</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, jtag_dp.o(i.JTAG_IR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = JTAG_IR &rArr; JTAG_IR_Slow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Slow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Fast
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_WriteAbort
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_TransferBlock
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_Transfer
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_IDCode
+</UL>
+
+<P><STRONG><a name="[76]"></a>JTAG_ReadIDCode</STRONG> (Thumb, 420 bytes, Stack size 16 bytes, jtag_dp.o(i.JTAG_ReadIDCode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = JTAG_ReadIDCode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDO_IN
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_IDCode
+</UL>
+
+<P><STRONG><a name="[78]"></a>JTAG_Sequence</STRONG> (Thumb, 154 bytes, Stack size 40 bytes, jtag_dp.o(i.JTAG_Sequence))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = JTAG_Sequence
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDO_IN
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_OUT
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_Sequence
+</UL>
+
+<P><STRONG><a name="[7a]"></a>JTAG_Transfer</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, jtag_dp.o(i.JTAG_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = JTAG_Transfer &rArr; JTAG_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_TransferBlock
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_Transfer
+</UL>
+
+<P><STRONG><a name="[7d]"></a>JTAG_WriteAbort</STRONG> (Thumb, 720 bytes, Stack size 16 bytes, jtag_dp.o(i.JTAG_WriteAbort))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = JTAG_WriteAbort
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_OUT
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_WriteAbort
+</UL>
+
+<P><STRONG><a name="[6a]"></a>LEDS_SETUP</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, main.o(i.LEDS_SETUP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = LEDS_SETUP &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOff
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardInit
+</UL>
+
+<P><STRONG><a name="[be]"></a>LedConnectedOff</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, main.o(i.LedConnectedOff))
+<BR><BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[bd]"></a>LedConnectedOn</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, main.o(i.LedConnectedOn))
+<BR><BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOut
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[3a]"></a>LedConnectedOut</STRONG> (Thumb, 38 bytes, Stack size 4 bytes, main.o(i.LedConnectedOut))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = LedConnectedOut
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOff
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(.constdata)
+</UL>
+<P><STRONG><a name="[bc]"></a>LedRunningOff</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, main.o(i.LedRunningOff))
+<BR><BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOut
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOut
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LEDS_SETUP
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[ba]"></a>LedRunningOn</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, main.o(i.LedRunningOn))
+<BR><BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOut
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[3b]"></a>LedRunningOut</STRONG> (Thumb, 70 bytes, Stack size 4 bytes, main.o(i.LedRunningOut))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = LedRunningOut
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOn
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOff
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOn
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(.constdata)
+</UL>
+<P><STRONG><a name="[6f]"></a>PORT_JTAG_SETUP</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, main.o(i.PORT_JTAG_SETUP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = PORT_JTAG_SETUP &rArr; vResetTarget &rArr; RST_Transfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delayms
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vResetTarget
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Connect
+</UL>
+
+<P><STRONG><a name="[71]"></a>PORT_OFF</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, main.o(i.PORT_OFF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = PORT_OFF &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Disconnect
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Setup
+</UL>
+
+<P><STRONG><a name="[6e]"></a>PORT_SWD_SETUP</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, main.o(i.PORT_SWD_SETUP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = PORT_SWD_SETUP &rArr; vResetTarget &rArr; RST_Transfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delayms
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vResetTarget
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Connect
+</UL>
+
+<P><STRONG><a name="[c9]"></a>PORT_USB_CONNECT_SETUP</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, main.o(i.PORT_USB_CONNECT_SETUP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = PORT_USB_CONNECT_SETUP &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+</UL>
+
+<P><STRONG><a name="[ca]"></a>RST_Transfer</STRONG> (Thumb, 898 bytes, Stack size 32 bytes, main.o(i.RST_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = RST_Transfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT_ENABLE
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_IN
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vResetTarget
+</UL>
+
+<P><STRONG><a name="[94]"></a>SWD_Sequence</STRONG> (Thumb, 192 bytes, Stack size 32 bytes, sw_dp.o(i.SWD_Sequence))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SWD_Sequence
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_IN
+</UL>
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_Sequence
+</UL>
+
+<P><STRONG><a name="[96]"></a>SWD_Transfer</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, sw_dp.o(i.SWD_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+<BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_WriteAbort
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_TransferBlock
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_Transfer
+</UL>
+
+<P><STRONG><a name="[9d]"></a>SWJ_Sequence</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, sw_dp.o(i.SWJ_Sequence))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SWJ_Sequence
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Sequence
+</UL>
+
+<P><STRONG><a name="[8e]"></a>SWO_Baudrate</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, swo.o(i.SWO_Baudrate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SWO_Baudrate &rArr; UART_SWO_Baudrate
+</UL>
+<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SWO_Baudrate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[8f]"></a>SWO_Control</STRONG> (Thumb, 86 bytes, Stack size 24 bytes, swo.o(i.SWO_Control))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SWO_Control &rArr; UART_SWO_Control
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SWO_Control
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ClearTrace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[92]"></a>SWO_Data</STRONG> (Thumb, 134 bytes, Stack size 32 bytes, swo.o(i.SWO_Data))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = SWO_Data &rArr; ResumeTrace &rArr; UART_SWO_Capture
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ResumeTrace
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceStatus
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceCount
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[91]"></a>SWO_ExtendedStatus</STRONG> (Thumb, 76 bytes, Stack size 32 bytes, swo.o(i.SWO_ExtendedStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = SWO_ExtendedStatus &rArr; GetTraceCount &rArr; UART_SWO_GetCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceStatus
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceCount
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[8d]"></a>SWO_Mode</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, swo.o(i.SWO_Mode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SWO_Mode &rArr; UART_SWO_Mode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SWO_Mode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[90]"></a>SWO_Status</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, swo.o(i.SWO_Status))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SWO_Status &rArr; GetTraceCount &rArr; UART_SWO_GetCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceStatus
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceCount
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[8c]"></a>SWO_Transport</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, swo.o(i.SWO_Transport))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SWO_Transport
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[e2]"></a>SysTick_CLKSourceConfig</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, misc.o(i.SysTick_CLKSourceConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Init
+</UL>
+
+<P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 108 bytes, Stack size 4 bytes, main.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = SysTick_Handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOn
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedRunningOff
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOn
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOff
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[e1]"></a>SysTick_Init</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, main.o(i.SysTick_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SysTick_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_CLKSourceConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[14b]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 142 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SystemCoreClockUpdate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[36]"></a>SystemInit</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SystemInit &rArr; SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(.text)
+</UL>
+<P><STRONG><a name="[da]"></a>UART_SWO_Baudrate</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, swo.o(i.UART_SWO_Baudrate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = UART_SWO_Baudrate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Baudrate
+</UL>
+
+<P><STRONG><a name="[d1]"></a>UART_SWO_Capture</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, swo.o(i.UART_SWO_Capture))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART_SWO_Capture
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ResumeTrace
+</UL>
+
+<P><STRONG><a name="[dc]"></a>UART_SWO_Control</STRONG> (Thumb, 112 bytes, Stack size 16 bytes, swo.o(i.UART_SWO_Control))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART_SWO_Control
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Control
+</UL>
+
+<P><STRONG><a name="[b6]"></a>UART_SWO_GetCount</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, swo.o(i.UART_SWO_GetCount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART_SWO_GetCount
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTraceCount
+</UL>
+
+<P><STRONG><a name="[de]"></a>UART_SWO_Mode</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, swo.o(i.UART_SWO_Mode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART_SWO_Mode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Mode
+</UL>
+
+<P><STRONG><a name="[2f]"></a>USART1_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USART1_IRQHandler &rArr; USART_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>USART2_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USART2_IRQHandler &rArr; USART_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[ea]"></a>USART_IRQHandler</STRONG> (Thumb, 624 bytes, Stack size 24 bytes, usart_stm32f10x.o(i.USART_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USART_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[a6]"></a>USART_RX_DMA_Complete</STRONG> (Thumb, 130 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART_RX_DMA_Complete))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USART_RX_DMA_Complete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel6_Event
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel5_Event
+</UL>
+
+<P><STRONG><a name="[a4]"></a>USART_TX_DMA_Complete</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART_TX_DMA_Complete))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART_TX_DMA_Complete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel7_Event
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel4_Event
+</UL>
+
+<P><STRONG><a name="[131]"></a>USBD_CDC_ACM_ClearCommFeature</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_ClearCommFeature))
+<BR><BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[e3]"></a>USBD_CDC_ACM_DataRead</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_DataRead))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_CDC_ACM_DataRead
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataReceived
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Callback
+</UL>
+
+<P><STRONG><a name="[f6]"></a>USBD_CDC_ACM_DataReceived</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, usbd_user_cdc_acm.o(i.USBD_CDC_ACM_DataReceived))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_CDC_ACM_DataReceived &rArr; USBD_CDC_ACM_DataRead
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataRead
+</UL>
+<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SOF_Event
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKOUT_Event
+</UL>
+
+<P><STRONG><a name="[6c]"></a>USBD_CDC_ACM_DataSend</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_DataSend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_CDC_ACM_DataSend
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_ACM_UART_to_USB
+</UL>
+
+<P><STRONG><a name="[f7]"></a>USBD_CDC_ACM_EP_BULKIN_Event</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_BULKIN_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = USBD_CDC_ACM_EP_BULKIN_Event &rArr; USBD_CDC_ACM_EP_BULKIN_HandleData &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKIN_HandleData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULK_Event
+</UL>
+
+<P><STRONG><a name="[fa]"></a>USBD_CDC_ACM_EP_BULKOUT_Event</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_BULKOUT_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = USBD_CDC_ACM_EP_BULKOUT_Event &rArr; USBD_CDC_ACM_EP_BULKOUT_HandleData &rArr; USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKOUT_HandleData
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataReceived
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULK_Event
+</UL>
+
+<P><STRONG><a name="[5e]"></a>USBD_CDC_ACM_EP_BULK_Event</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_BULK_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = USBD_CDC_ACM_EP_BULK_Event &rArr; USBD_CDC_ACM_EP_BULKIN_Event &rArr; USBD_CDC_ACM_EP_BULKIN_HandleData &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKOUT_Event
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKIN_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[5d]"></a>USBD_CDC_ACM_EP_INTIN_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_INTIN_Event))
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[130]"></a>USBD_CDC_ACM_GetCommFeature</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_GetCommFeature))
+<BR><BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[12f]"></a>USBD_CDC_ACM_GetEncapsulatedResponse</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_GetEncapsulatedResponse))
+<BR><BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[fd]"></a>USBD_CDC_ACM_GetLineCoding</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_GetLineCoding))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_CDC_ACM_GetLineCoding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortGetLineCoding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[ff]"></a>USBD_CDC_ACM_Initialize</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_Initialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_CDC_ACM_Initialize &rArr; USBD_CDC_ACM_PortInitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortInitialize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_class_init
+</UL>
+
+<P><STRONG><a name="[fe]"></a>USBD_CDC_ACM_PortGetLineCoding</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortGetLineCoding))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_GetLineCoding
+</UL>
+
+<P><STRONG><a name="[100]"></a>USBD_CDC_ACM_PortInitialize</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortInitialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_CDC_ACM_PortInitialize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Initialize
+</UL>
+
+<P><STRONG><a name="[102]"></a>USBD_CDC_ACM_PortReset</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortReset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_CDC_ACM_PortReset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Reset
+</UL>
+
+<P><STRONG><a name="[107]"></a>USBD_CDC_ACM_PortSetControlLineState</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortSetControlLineState))
+<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SetControlLineState
+</UL>
+
+<P><STRONG><a name="[103]"></a>USBD_CDC_ACM_PortSetLineCoding</STRONG> (Thumb, 258 bytes, Stack size 24 bytes, usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortSetLineCoding))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_CDC_ACM_PortSetLineCoding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SetLineCoding
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Reset
+</UL>
+
+<P><STRONG><a name="[101]"></a>USBD_CDC_ACM_Reset</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_Reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_CDC_ACM_Reset &rArr; USBD_CDC_ACM_PortSetLineCoding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortSetLineCoding
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortReset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Reset_Event
+</UL>
+
+<P><STRONG><a name="[104]"></a>USBD_CDC_ACM_Reset_Event</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_Reset_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USBD_CDC_ACM_Reset_Event &rArr; USBD_CDC_ACM_Reset &rArr; USBD_CDC_ACM_PortSetLineCoding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Reset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Reset_Event
+</UL>
+
+<P><STRONG><a name="[105]"></a>USBD_CDC_ACM_SOF_Event</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_SOF_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = USBD_CDC_ACM_SOF_Event &rArr; USBD_CDC_ACM_EP_BULKIN_HandleData &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKOUT_HandleData
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKIN_HandleData
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataReceived
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SOF_Event
+</UL>
+
+<P><STRONG><a name="[132]"></a>USBD_CDC_ACM_SendBreak</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_SendBreak))
+<BR><BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[12c]"></a>USBD_CDC_ACM_SendEncapsulatedCommand</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_SendEncapsulatedCommand))
+<BR><BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[12d]"></a>USBD_CDC_ACM_SetCommFeature</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_SetCommFeature))
+<BR><BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[106]"></a>USBD_CDC_ACM_SetControlLineState</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_SetControlLineState))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_CDC_ACM_SetControlLineState
+</UL>
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortSetControlLineState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[108]"></a>USBD_CDC_ACM_SetLineCoding</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_SetLineCoding))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_CDC_ACM_SetLineCoding &rArr; USBD_CDC_ACM_PortSetLineCoding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortSetLineCoding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[109]"></a>USBD_ClrStallEP</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_ClrStallEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_ClrStallEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Status
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Reset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetClrFeature
+</UL>
+
+<P><STRONG><a name="[145]"></a>USBD_ConfigEP</STRONG> (Thumb, 186 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_ConfigEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_ConfigEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetInterface
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[144]"></a>USBD_Configure</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_Configure))
+<BR><BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[60]"></a>USBD_Configure_Event</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_Configure_Event))
+<BR><BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_Configure_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[152]"></a>USBD_Connect</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_Connect))
+<BR><BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_connect
+</UL>
+
+<P><STRONG><a name="[10d]"></a>USBD_DataInStage</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, usbd_core.o(i.USBD_DataInStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_DataInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[10e]"></a>USBD_DataOutStage</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, usbd_core.o(i.USBD_DataOutStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USBD_DataOutStage &rArr; USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[112]"></a>USBD_DirCtrlEP</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_DirCtrlEP))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[10f]"></a>USBD_DisableEP</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_DisableEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_DisableEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetInterface
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[110]"></a>USBD_EnableEP</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_EnableEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_EnableEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetInterface
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[5c]"></a>USBD_EndPoint0</STRONG> (Thumb, 588 bytes, Stack size 32 bytes, usbd_core.o(i.USBD_EndPoint0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = USBD_EndPoint0 &rArr; USBD_EndPoint0_Setup_HID_ReqToIF &rArr; USBD_DataInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_os_evt_set
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_MSC_ReqToIF
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CLS_ReqToIF
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CLS_ReqToEP
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CLS_ReqToDEV
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_ADC_ReqToIF
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_ADC_ReqToEP
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CLS_ReqToIF
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CLS_ReqToEP
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CLS_ReqToDEV
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_ADC_ReqToIF
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_ADC_ReqToEP
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_HID_ReqToIF
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CDC_ReqToIF
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusOutStage
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusInStage
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetInterface
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetConfiguration
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetClrFeature
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqGetStatus
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqGetDescriptor
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataOutStage
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetStallEP
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetAddress
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DirCtrlEP
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClrStallEP
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[129]"></a>USBD_EndPoint0_Out_ADC_ReqToEP</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Out_ADC_ReqToEP))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[126]"></a>USBD_EndPoint0_Out_ADC_ReqToIF</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Out_ADC_ReqToIF))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[127]"></a>USBD_EndPoint0_Out_CDC_ReqToIF</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, usbd_core_cdc.o(i.USBD_EndPoint0_Out_CDC_ReqToIF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_EndPoint0_Out_CDC_ReqToIF &rArr; USBD_StatusInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SetLineCoding
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SetCommFeature
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SendEncapsulatedCommand
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusInStage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[124]"></a>USBD_EndPoint0_Out_CLS_ReqToDEV</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Out_CLS_ReqToDEV))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[12a]"></a>USBD_EndPoint0_Out_CLS_ReqToEP</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Out_CLS_ReqToEP))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[128]"></a>USBD_EndPoint0_Out_CLS_ReqToIF</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Out_CLS_ReqToIF))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[125]"></a>USBD_EndPoint0_Out_HID_ReqToIF</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, usbd_core_hid.o(i.USBD_EndPoint0_Out_HID_ReqToIF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_EndPoint0_Out_HID_ReqToIF &rArr; USBD_StatusInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SetReport
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusInStage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[121]"></a>USBD_EndPoint0_Setup_ADC_ReqToEP</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Setup_ADC_ReqToEP))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[11e]"></a>USBD_EndPoint0_Setup_ADC_ReqToIF</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Setup_ADC_ReqToIF))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[11f]"></a>USBD_EndPoint0_Setup_CDC_ReqToIF</STRONG> (Thumb, 140 bytes, Stack size 16 bytes, usbd_core_cdc.o(i.USBD_EndPoint0_Setup_CDC_ReqToIF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USBD_EndPoint0_Setup_CDC_ReqToIF &rArr; USBD_DataInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SetControlLineState
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SendBreak
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_GetLineCoding
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_GetEncapsulatedResponse
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_GetCommFeature
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_ClearCommFeature
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusInStage
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[11b]"></a>USBD_EndPoint0_Setup_CLS_ReqToDEV</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Setup_CLS_ReqToDEV))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[122]"></a>USBD_EndPoint0_Setup_CLS_ReqToEP</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Setup_CLS_ReqToEP))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[120]"></a>USBD_EndPoint0_Setup_CLS_ReqToIF</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Setup_CLS_ReqToIF))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[11c]"></a>USBD_EndPoint0_Setup_HID_ReqToIF</STRONG> (Thumb, 144 bytes, Stack size 24 bytes, usbd_core_hid.o(i.USBD_EndPoint0_Setup_HID_ReqToIF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = USBD_EndPoint0_Setup_HID_ReqToIF &rArr; USBD_DataInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SetProtocol
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SetIdle
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_GetReport
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_GetProtocol
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_GetIdle
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusInStage
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[11d]"></a>USBD_EndPoint0_Setup_MSC_ReqToIF</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_EndPoint0_Setup_MSC_ReqToIF))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[10c]"></a>USBD_HID_Configure_Event</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, usbd_hid.o(i.USBD_HID_Configure_Event))
+<BR><BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Configure_Event
+</UL>
+
+<P><STRONG><a name="[138]"></a>USBD_HID_EP_INTIN_Event</STRONG> (Thumb, 326 bytes, Stack size 40 bytes, usbd_hid.o(i.USBD_HID_EP_INTIN_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_report
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SOF_Event
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INT_Event
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_report_trigger
+</UL>
+
+<P><STRONG><a name="[13a]"></a>USBD_HID_EP_INTOUT_Event</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, usbd_hid.o(i.USBD_HID_EP_INTOUT_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = USBD_HID_EP_INTOUT_Event &rArr; USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_set_report
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INT_Event
+</UL>
+
+<P><STRONG><a name="[5f]"></a>USBD_HID_EP_INT_Event</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, usbd_hid.o(i.USBD_HID_EP_INT_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = USBD_HID_EP_INT_Event &rArr; USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTOUT_Event
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTIN_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[134]"></a>USBD_HID_GetIdle</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, usbd_hid.o(i.USBD_HID_GetIdle))
+<BR><BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+</UL>
+
+<P><STRONG><a name="[136]"></a>USBD_HID_GetProtocol</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usbd_hid.o(i.USBD_HID_GetProtocol))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_HID_GetProtocol
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_protocol
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+</UL>
+
+<P><STRONG><a name="[133]"></a>USBD_HID_GetReport</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, usbd_hid.o(i.USBD_HID_GetReport))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_HID_GetReport &rArr; usbd_hid_get_report
+</UL>
+<BR>[Calls]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_report
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+</UL>
+
+<P><STRONG><a name="[13d]"></a>USBD_HID_SOF_Event</STRONG> (Thumb, 288 bytes, Stack size 40 bytes, usbd_hid.o(i.USBD_HID_SOF_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = USBD_HID_SOF_Event &rArr; USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTIN_Event
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SOF_Event
+</UL>
+
+<P><STRONG><a name="[135]"></a>USBD_HID_SetIdle</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, usbd_hid.o(i.USBD_HID_SetIdle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_HID_SetIdle
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+</UL>
+
+<P><STRONG><a name="[137]"></a>USBD_HID_SetProtocol</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usbd_hid.o(i.USBD_HID_SetProtocol))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_HID_SetProtocol
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_set_protocol
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+</UL>
+
+<P><STRONG><a name="[12e]"></a>USBD_HID_SetReport</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, usbd_hid.o(i.USBD_HID_SetReport))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_HID_SetReport &rArr; usbd_hid_set_report
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_set_report
+</UL>
+<BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_HID_ReqToIF
+</UL>
+
+<P><STRONG><a name="[13f]"></a>USBD_Init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USBD_Init &rArr; PORT_USB_CONNECT_SETUP &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_USB_CONNECT_SETUP
+<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IntrEna
+</UL>
+<BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_init
+</UL>
+
+<P><STRONG><a name="[140]"></a>USBD_IntrEna</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_IntrEna))
+<BR><BR>[Called By]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+</UL>
+
+<P><STRONG><a name="[154]"></a>USBD_RTX_TaskInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usb_config.o(i.USBD_RTX_TaskInit))
+<BR><BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_init
+</UL>
+
+<P><STRONG><a name="[fc]"></a>USBD_ReadEP</STRONG> (Thumb, 86 bytes, Stack size 28 bytes, usbd_stm32f103.o(i.USBD_ReadEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTOUT_Event
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKOUT_HandleData
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusOutStage
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataOutStage
+</UL>
+
+<P><STRONG><a name="[143]"></a>USBD_ReqClrFeature_MSC</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usb_config.o(i.USBD_ReqClrFeature_MSC))
+<BR><BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetClrFeature
+</UL>
+
+<P><STRONG><a name="[117]"></a>USBD_ReqGetDescriptor</STRONG> (Thumb, 260 bytes, Stack size 24 bytes, usbd_core.o(i.USBD_ReqGetDescriptor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USBD_ReqGetDescriptor &rArr; USBD_ReqGetDescriptor_HID
+</UL>
+<BR>[Calls]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqGetDescriptor_HID
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[141]"></a>USBD_ReqGetDescriptor_HID</STRONG> (Thumb, 90 bytes, Stack size 12 bytes, usbd_core_hid.o(i.USBD_ReqGetDescriptor_HID))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USBD_ReqGetDescriptor_HID
+</UL>
+<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqGetDescriptor
+</UL>
+
+<P><STRONG><a name="[113]"></a>USBD_ReqGetStatus</STRONG> (Thumb, 116 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_ReqGetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_ReqGetStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[114]"></a>USBD_ReqSetClrFeature</STRONG> (Thumb, 168 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_ReqSetClrFeature))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USBD_ReqSetClrFeature &rArr; USBD_SetStallEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqClrFeature_MSC
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WakeUpCfg
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetStallEP
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClrStallEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[118]"></a>USBD_ReqSetConfiguration</STRONG> (Thumb, 376 bytes, Stack size 40 bytes, usbd_core.o(i.USBD_ReqSetConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = USBD_ReqSetConfiguration &rArr; USBD_EnableEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ResetEP
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnableEP
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DisableEP
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Configure
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ConfigEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[119]"></a>USBD_ReqSetInterface</STRONG> (Thumb, 280 bytes, Stack size 48 bytes, usbd_core.o(i.USBD_ReqSetInterface))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USBD_ReqSetInterface &rArr; USBD_EnableEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ResetEP
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnableEP
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DisableEP
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ConfigEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[147]"></a>USBD_Reset</STRONG> (Thumb, 160 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_Reset))
+<BR><BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_LP_CAN1_RX0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[146]"></a>USBD_ResetEP</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_ResetEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USBD_ResetEP &rArr; EP_Reset
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Reset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetInterface
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[5a]"></a>USBD_Reset_Event</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usb_config.o(i.USBD_Reset_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USBD_Reset_Event &rArr; USBD_CDC_ACM_Reset_Event &rArr; USBD_CDC_ACM_Reset &rArr; USBD_CDC_ACM_PortSetLineCoding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Reset_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[5b]"></a>USBD_SOF_Event</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usb_config.o(i.USBD_SOF_Event))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = USBD_SOF_Event &rArr; USBD_HID_SOF_Event &rArr; USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SOF_Event
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SOF_Event
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usb_config.o(.constdata)
+</UL>
+<P><STRONG><a name="[116]"></a>USBD_SetAddress</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_SetAddress))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[123]"></a>USBD_SetStallEP</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, usbd_stm32f103.o(i.USBD_SetStallEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_SetStallEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetClrFeature
+</UL>
+
+<P><STRONG><a name="[111]"></a>USBD_SetupStage</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, usbd_core.o(i.USBD_SetupStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = USBD_SetupStage &rArr; USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[115]"></a>USBD_StatusInStage</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, usbd_core.o(i.USBD_StatusInStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = USBD_StatusInStage &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_HID_ReqToIF
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Setup_CDC_ReqToIF
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_HID_ReqToIF
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0_Out_CDC_ReqToIF
+</UL>
+
+<P><STRONG><a name="[12b]"></a>USBD_StatusOutStage</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, usbd_core.o(i.USBD_StatusOutStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = USBD_StatusOutStage &rArr; USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[149]"></a>USBD_Suspend</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_Suspend))
+<BR><BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_LP_CAN1_RX0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[14a]"></a>USBD_WakeUp</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_WakeUp))
+<BR><BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_LP_CAN1_RX0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[142]"></a>USBD_WakeUpCfg</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_stm32f103.o(i.USBD_WakeUpCfg))
+<BR><BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReqSetClrFeature
+</UL>
+
+<P><STRONG><a name="[f9]"></a>USBD_WriteEP</STRONG> (Thumb, 104 bytes, Stack size 32 bytes, usbd_stm32f103.o(i.USBD_WriteEP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP_Status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTIN_Event
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKIN_HandleData
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StatusInStage
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+
+<P><STRONG><a name="[1e]"></a>USB_LP_CAN1_RX0_IRQHandler</STRONG> (Thumb, 322 bytes, Stack size 16 bytes, usbd_stm32f103.o(i.USB_LP_CAN1_RX0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USB_LP_CAN1_RX0_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_reset_core
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WakeUp
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Suspend
+<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Reset
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>UserAppAbort</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, main.o(i.UserAppAbort))
+<BR>[Address Reference Count : 1]<UL><LI> main.o(.constdata)
+</UL>
+<P><STRONG><a name="[3c]"></a>UserAppInit</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, main.o(i.UserAppInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = UserAppInit &rArr; DAP_Setup &rArr; PORT_OFF &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Setup
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(.constdata)
+</UL>
+<P><STRONG><a name="[161]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[162]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[163]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[35]"></a>main</STRONG> (Thumb, 112 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = main &rArr; usbd_hid_process &rArr; usbd_hid_get_report_trigger &rArr; USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_init
+<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_process
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_connect
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_configured
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_PortInitialize
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delayms
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_ACM_UART_to_USB
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Init
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOn
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LedConnectedOff
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardInit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[150]"></a>usbd_class_init</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usb_config.o(i.usbd_class_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = usbd_class_init &rArr; USBD_CDC_ACM_Initialize &rArr; USBD_CDC_ACM_PortInitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_init
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_Initialize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_init
+</UL>
+
+<P><STRONG><a name="[14e]"></a>usbd_configured</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, usbd_core.o(i.usbd_configured))
+<BR><BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[14d]"></a>usbd_connect</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_core.o(i.usbd_connect))
+<BR><BR>[Calls]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Connect
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[13c]"></a>usbd_hid_get_protocol</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, usbd_hid.o(i.usbd_hid_get_protocol))
+<BR><BR>[Called By]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_GetProtocol
+</UL>
+
+<P><STRONG><a name="[139]"></a>usbd_hid_get_report</STRONG> (Thumb, 140 bytes, Stack size 24 bytes, usbd_user_hid.o(i.usbd_hid_get_report))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = usbd_hid_get_report
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_GetReport
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTIN_Event
+</UL>
+
+<P><STRONG><a name="[153]"></a>usbd_hid_get_report_trigger</STRONG> (Thumb, 132 bytes, Stack size 24 bytes, usbd_hid.o(i.usbd_hid_get_report_trigger))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = usbd_hid_get_report_trigger &rArr; USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTIN_Event
+</UL>
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_process
+</UL>
+
+<P><STRONG><a name="[151]"></a>usbd_hid_init</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, usbd_user_hid.o(i.usbd_hid_init))
+<BR><BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_class_init
+</UL>
+
+<P><STRONG><a name="[14f]"></a>usbd_hid_process</STRONG> (Thumb, 150 bytes, Stack size 8 bytes, usbd_user_hid.o(i.usbd_hid_process))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = usbd_hid_process &rArr; usbd_hid_get_report_trigger &rArr; USBD_HID_EP_INTIN_Event &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_hid_get_report_trigger
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HID_ProcessCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[13e]"></a>usbd_hid_set_protocol</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_hid.o(i.usbd_hid_set_protocol))
+<BR><BR>[Called By]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SetProtocol
+</UL>
+
+<P><STRONG><a name="[13b]"></a>usbd_hid_set_report</STRONG> (Thumb, 138 bytes, Stack size 24 bytes, usbd_user_hid.o(i.usbd_hid_set_report))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = usbd_hid_set_report
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_SetReport
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_HID_EP_INTOUT_Event
+</UL>
+
+<P><STRONG><a name="[14c]"></a>usbd_init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usbd_core.o(i.usbd_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = usbd_init &rArr; USBD_Init &rArr; PORT_USB_CONNECT_SETUP &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_class_init
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_RTX_TaskInit
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[11a]"></a>usbd_os_evt_set</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usb_config.o(i.usbd_os_evt_set))
+<BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EndPoint0
+</UL>
+
+<P><STRONG><a name="[148]"></a>usbd_reset_core</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, usbd_core.o(i.usbd_reset_core))
+<BR><BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_LP_CAN1_RX0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[99]"></a>vResetTarget</STRONG> (Thumb, 142 bytes, Stack size 16 bytes, main.o(i.vResetTarget))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = vResetTarget &rArr; RST_Transfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RST_Transfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Pins
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_SWD_SETUP
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_JTAG_SETUP
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[cc]"></a>PIN_SWCLK_TCK_CLR</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, main.o(i.PIN_SWCLK_TCK_CLR))
+<BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RST_Transfer
+</UL>
+
+<P><STRONG><a name="[cd]"></a>PIN_SWCLK_TCK_SET</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, main.o(i.PIN_SWCLK_TCK_SET))
+<BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RST_Transfer
+</UL>
+
+<P><STRONG><a name="[ce]"></a>PIN_SWDIO_IN</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, main.o(i.PIN_SWDIO_IN))
+<BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RST_Transfer
+</UL>
+
+<P><STRONG><a name="[cb]"></a>PIN_SWDIO_OUT</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, main.o(i.PIN_SWDIO_OUT))
+<BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RST_Transfer
+</UL>
+
+<P><STRONG><a name="[cf]"></a>PIN_SWDIO_OUT_ENABLE</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, main.o(i.PIN_SWDIO_OUT_ENABLE))
+<BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RST_Transfer
+</UL>
+
+<P><STRONG><a name="[df]"></a>SetSysClock</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SetSysClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClockTo72
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[e0]"></a>SetSysClockTo72</STRONG> (Thumb, 228 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SetSysClockTo72))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SetSysClockTo72
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+
+<P><STRONG><a name="[6d]"></a>DAP_Connect</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, dap.o(i.DAP_Connect))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = DAP_Connect &rArr; PORT_SWD_SETUP &rArr; vResetTarget &rArr; RST_Transfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_SWD_SETUP
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_JTAG_SETUP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[80]"></a>DAP_Delay</STRONG> (Thumb, 58 bytes, Stack size 12 bytes, dap.o(i.DAP_Delay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DAP_Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[70]"></a>DAP_Disconnect</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, dap.o(i.DAP_Disconnect))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DAP_Disconnect &rArr; PORT_OFF &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_OFF
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[9f]"></a>DAP_Dummy_Transfer</STRONG> (Thumb, 56 bytes, Stack size 12 bytes, dap.o(i.DAP_Dummy_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DAP_Dummy_Transfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Transfer
+</UL>
+
+<P><STRONG><a name="[7f]"></a>DAP_HostStatus</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, dap.o(i.DAP_HostStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DAP_HostStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[72]"></a>DAP_Info</STRONG> (Thumb, 148 bytes, Stack size 16 bytes, dap.o(i.DAP_Info))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DAP_Info
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[87]"></a>DAP_JTAG_Configure</STRONG> (Thumb, 82 bytes, Stack size 20 bytes, dap.o(i.DAP_JTAG_Configure))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = DAP_JTAG_Configure
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[74]"></a>DAP_JTAG_IDCode</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, dap.o(i.DAP_JTAG_IDCode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DAP_JTAG_IDCode &rArr; JTAG_IR &rArr; JTAG_IR_Slow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_ReadIDCode
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[77]"></a>DAP_JTAG_Sequence</STRONG> (Thumb, 88 bytes, Stack size 32 bytes, dap.o(i.DAP_JTAG_Sequence))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = DAP_JTAG_Sequence &rArr; JTAG_Sequence
+</UL>
+<BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[79]"></a>DAP_JTAG_Transfer</STRONG> (Thumb, 936 bytes, Stack size 64 bytes, dap.o(i.DAP_JTAG_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = DAP_JTAG_Transfer &rArr; JTAG_Transfer &rArr; JTAG_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Transfer
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Transfer
+</UL>
+
+<P><STRONG><a name="[7b]"></a>DAP_JTAG_TransferBlock</STRONG> (Thumb, 408 bytes, Stack size 48 bytes, dap.o(i.DAP_JTAG_TransferBlock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = DAP_JTAG_TransferBlock &rArr; JTAG_Transfer &rArr; JTAG_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Transfer
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_TransferBlock
+</UL>
+
+<P><STRONG><a name="[7c]"></a>DAP_JTAG_WriteAbort</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, dap.o(i.DAP_JTAG_WriteAbort))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DAP_JTAG_WriteAbort &rArr; JTAG_IR &rArr; JTAG_IR_Slow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_WriteAbort
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_WriteAbort
+</UL>
+
+<P><STRONG><a name="[81]"></a>DAP_ResetTarget</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, dap.o(i.DAP_ResetTarget))
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[85]"></a>DAP_SWD_Configure</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, dap.o(i.DAP_SWD_Configure))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DAP_SWD_Configure
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[86]"></a>DAP_SWD_Sequence</STRONG> (Thumb, 170 bytes, Stack size 32 bytes, dap.o(i.DAP_SWD_Sequence))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = DAP_SWD_Sequence &rArr; SWD_Sequence
+</UL>
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Sequence
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT_ENABLE
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[95]"></a>DAP_SWD_Transfer</STRONG> (Thumb, 918 bytes, Stack size 64 bytes, dap.o(i.DAP_SWD_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = DAP_SWD_Transfer &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Transfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Transfer
+</UL>
+
+<P><STRONG><a name="[97]"></a>DAP_SWD_TransferBlock</STRONG> (Thumb, 368 bytes, Stack size 40 bytes, dap.o(i.DAP_SWD_TransferBlock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = DAP_SWD_TransferBlock &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Transfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_TransferBlock
+</UL>
+
+<P><STRONG><a name="[98]"></a>DAP_SWD_WriteAbort</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, dap.o(i.DAP_SWD_WriteAbort))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = DAP_SWD_WriteAbort &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Transfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_WriteAbort
+</UL>
+
+<P><STRONG><a name="[83]"></a>DAP_SWJ_Clock</STRONG> (Thumb, 106 bytes, Stack size 12 bytes, dap.o(i.DAP_SWJ_Clock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DAP_SWJ_Clock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[82]"></a>DAP_SWJ_Pins</STRONG> (Thumb, 438 bytes, Stack size 32 bytes, dap.o(i.DAP_SWJ_Pins))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = DAP_SWJ_Pins &rArr; vResetTarget &rArr; RST_Transfer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_IN
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_IN
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_IN
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vResetTarget
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[84]"></a>DAP_SWJ_Sequence</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, dap.o(i.DAP_SWJ_Sequence))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DAP_SWJ_Sequence &rArr; SWJ_Sequence
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWJ_Sequence
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[89]"></a>DAP_Transfer</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, dap.o(i.DAP_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = DAP_Transfer &rArr; DAP_SWD_Transfer &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_Transfer
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_Transfer
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_Dummy_Transfer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[8a]"></a>DAP_TransferBlock</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, dap.o(i.DAP_TransferBlock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = DAP_TransferBlock &rArr; DAP_SWD_TransferBlock &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_TransferBlock
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_TransferBlock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[88]"></a>DAP_TransferConfigure</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, dap.o(i.DAP_TransferConfigure))
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[8b]"></a>DAP_WriteAbort</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, dap.o(i.DAP_WriteAbort))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = DAP_WriteAbort &rArr; DAP_SWD_WriteAbort &rArr; SWD_Transfer &rArr; SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_WriteAbort
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_JTAG_WriteAbort
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_ProcessCommand
+</UL>
+
+<P><STRONG><a name="[9a]"></a>PIN_SWCLK_TCK_IN</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, dap.o(i.PIN_SWCLK_TCK_IN))
+<BR><BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Pins
+</UL>
+
+<P><STRONG><a name="[93]"></a>PIN_SWDIO_OUT_ENABLE</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, dap.o(i.PIN_SWDIO_OUT_ENABLE))
+<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWD_Sequence
+</UL>
+
+<P><STRONG><a name="[9b]"></a>PIN_SWDIO_TMS_IN</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, dap.o(i.PIN_SWDIO_TMS_IN))
+<BR><BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Pins
+</UL>
+
+<P><STRONG><a name="[9c]"></a>PIN_TDI_IN</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, dap.o(i.PIN_TDI_IN))
+<BR><BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAP_SWJ_Pins
+</UL>
+
+<P><STRONG><a name="[bf]"></a>JTAG_IR_Fast</STRONG> (Thumb, 318 bytes, Stack size 16 bytes, jtag_dp.o(i.JTAG_IR_Fast))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = JTAG_IR_Fast
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_OUT
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR
+</UL>
+
+<P><STRONG><a name="[c0]"></a>JTAG_IR_Slow</STRONG> (Thumb, 652 bytes, Stack size 16 bytes, jtag_dp.o(i.JTAG_IR_Slow))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = JTAG_IR_Slow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_OUT
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR
+</UL>
+
+<P><STRONG><a name="[c7]"></a>JTAG_TransferFast</STRONG> (Thumb, 644 bytes, Stack size 32 bytes, jtag_dp.o(i.JTAG_TransferFast))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = JTAG_TransferFast
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDO_IN
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_OUT
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Transfer
+</UL>
+
+<P><STRONG><a name="[c8]"></a>JTAG_TransferSlow</STRONG> (Thumb, 1234 bytes, Stack size 32 bytes, jtag_dp.o(i.JTAG_TransferSlow))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = JTAG_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDO_IN
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_TDI_OUT
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_SET
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_TMS_CLR
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Transfer
+</UL>
+
+<P><STRONG><a name="[c2]"></a>PIN_SWCLK_TCK_CLR</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, jtag_dp.o(i.PIN_SWCLK_TCK_CLR))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Slow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Fast
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_WriteAbort
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_ReadIDCode
+</UL>
+
+<P><STRONG><a name="[c3]"></a>PIN_SWCLK_TCK_SET</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, jtag_dp.o(i.PIN_SWCLK_TCK_SET))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Slow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Fast
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_WriteAbort
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_ReadIDCode
+</UL>
+
+<P><STRONG><a name="[c4]"></a>PIN_SWDIO_TMS_CLR</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, jtag_dp.o(i.PIN_SWDIO_TMS_CLR))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Slow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Fast
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_WriteAbort
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_ReadIDCode
+</UL>
+
+<P><STRONG><a name="[c1]"></a>PIN_SWDIO_TMS_SET</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, jtag_dp.o(i.PIN_SWDIO_TMS_SET))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Slow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Fast
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_WriteAbort
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_ReadIDCode
+</UL>
+
+<P><STRONG><a name="[c5]"></a>PIN_TDI_OUT</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, jtag_dp.o(i.PIN_TDI_OUT))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Slow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_IR_Fast
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_WriteAbort
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+</UL>
+
+<P><STRONG><a name="[c6]"></a>PIN_TDO_IN</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, jtag_dp.o(i.PIN_TDO_IN))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferSlow
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_TransferFast
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_Sequence
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JTAG_ReadIDCode
+</UL>
+
+<P><STRONG><a name="[d2]"></a>PIN_SWCLK_TCK_CLR</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, sw_dp.o(i.PIN_SWCLK_TCK_CLR))
+<BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWJ_Sequence
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Sequence
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+
+<P><STRONG><a name="[d4]"></a>PIN_SWCLK_TCK_SET</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, sw_dp.o(i.PIN_SWCLK_TCK_SET))
+<BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWJ_Sequence
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Sequence
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+
+<P><STRONG><a name="[d3]"></a>PIN_SWDIO_IN</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, sw_dp.o(i.PIN_SWDIO_IN))
+<BR><BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Sequence
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+
+<P><STRONG><a name="[d5]"></a>PIN_SWDIO_OUT</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, sw_dp.o(i.PIN_SWDIO_OUT))
+<BR><BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Sequence
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+
+<P><STRONG><a name="[d8]"></a>PIN_SWDIO_OUT_DISABLE</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, sw_dp.o(i.PIN_SWDIO_OUT_DISABLE))
+<BR><BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+
+<P><STRONG><a name="[d9]"></a>PIN_SWDIO_OUT_ENABLE</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, sw_dp.o(i.PIN_SWDIO_OUT_ENABLE))
+<BR><BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferSlow
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_TransferFast
+</UL>
+
+<P><STRONG><a name="[d6]"></a>SWD_TransferFast</STRONG> (Thumb, 808 bytes, Stack size 32 bytes, sw_dp.o(i.SWD_TransferFast))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SWD_TransferFast
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT_ENABLE
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT_DISABLE
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_IN
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Transfer
+</UL>
+
+<P><STRONG><a name="[d7]"></a>SWD_TransferSlow</STRONG> (Thumb, 2020 bytes, Stack size 40 bytes, sw_dp.o(i.SWD_TransferSlow))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SWD_TransferSlow
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_SET
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWCLK_TCK_CLR
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT_ENABLE
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT_DISABLE
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_OUT
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIN_SWDIO_IN
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWD_Transfer
+</UL>
+
+<P><STRONG><a name="[db]"></a>ClearTrace</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, swo.o(i.ClearTrace))
+<BR><BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Control
+</UL>
+
+<P><STRONG><a name="[b5]"></a>GetTraceCount</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, swo.o(i.GetTraceCount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GetTraceCount &rArr; UART_SWO_GetCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SWO_GetCount
+</UL>
+<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Status
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_ExtendedStatus
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Data
+</UL>
+
+<P><STRONG><a name="[dd]"></a>GetTraceStatus</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, swo.o(i.GetTraceStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Status
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_ExtendedStatus
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Data
+</UL>
+
+<P><STRONG><a name="[d0]"></a>ResumeTrace</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, swo.o(i.ResumeTrace))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = ResumeTrace &rArr; UART_SWO_Capture
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SWO_Capture
+</UL>
+<BR>[Called By]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SWO_Data
+</UL>
+
+<P><STRONG><a name="[f2]"></a>SetTraceError</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, swo.o(i.SetTraceError))
+<BR><BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Callback
+</UL>
+
+<P><STRONG><a name="[38]"></a>USART_Callback</STRONG> (Thumb, 112 bytes, Stack size 24 bytes, swo.o(i.USART_Callback))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USART_Callback
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTraceError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> swo.o(i.UART_SWO_Mode)
+</UL>
+<P><STRONG><a name="[aa]"></a>__NVIC_ClearPendingIRQ</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.__NVIC_ClearPendingIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_ChannelInitialize
+</UL>
+
+<P><STRONG><a name="[ad]"></a>__NVIC_DisableIRQ</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.__NVIC_DisableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_ChannelUninitialize
+</UL>
+
+<P><STRONG><a name="[ab]"></a>__NVIC_EnableIRQ</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.__NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_ChannelInitialize
+</UL>
+
+<P><STRONG><a name="[49]"></a>USART1_Control</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART1_Control))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = USART1_Control &rArr; USART_Control &rArr; GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[40]"></a>USART1_GetCapabilities</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_GetCapabilities))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART1_GetCapabilities
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetCapabilities
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[4c]"></a>USART1_GetModemStatus</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_GetModemStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USART1_GetModemStatus &rArr; USART_GetModemStatus
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetModemStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[48]"></a>USART1_GetRxCount</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_GetRxCount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART1_GetRxCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetRxCount
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[4a]"></a>USART1_GetStatus</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_GetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USART1_GetStatus &rArr; USART_GetStatus
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[47]"></a>USART1_GetTxCount</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_GetTxCount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART1_GetTxCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetTxCount
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[41]"></a>USART1_Initialize</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_Initialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USART1_Initialize &rArr; USART_Initialize &rArr; GPIO_AFConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Initialize
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[43]"></a>USART1_PowerControl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_PowerControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART1_PowerControl &rArr; USART_PowerControl &rArr; DMA_ChannelUninitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[45]"></a>USART1_Receive</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART1_Receive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = USART1_Receive &rArr; USART_Receive &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Receive
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[44]"></a>USART1_Send</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART1_Send))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = USART1_Send &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Send
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[4b]"></a>USART1_SetModemControl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_SetModemControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USART1_SetModemControl &rArr; USART_SetModemControl
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SetModemControl
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[46]"></a>USART1_Transfer</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART1_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = USART1_Transfer &rArr; USART_Transfer &rArr; USART_Receive &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Transfer
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[42]"></a>USART1_Uninitialize</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART1_Uninitialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART1_Uninitialize &rArr; USART_Uninitialize &rArr; GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Uninitialize
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[56]"></a>USART2_Control</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART2_Control))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = USART2_Control &rArr; USART_Control &rArr; GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[4d]"></a>USART2_GetCapabilities</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_GetCapabilities))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART2_GetCapabilities
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetCapabilities
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[59]"></a>USART2_GetModemStatus</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_GetModemStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USART2_GetModemStatus &rArr; USART_GetModemStatus
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetModemStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[55]"></a>USART2_GetRxCount</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_GetRxCount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART2_GetRxCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetRxCount
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[57]"></a>USART2_GetStatus</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_GetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USART2_GetStatus &rArr; USART_GetStatus
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[54]"></a>USART2_GetTxCount</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_GetTxCount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART2_GetTxCount
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetTxCount
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[4e]"></a>USART2_Initialize</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_Initialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USART2_Initialize &rArr; USART_Initialize &rArr; GPIO_AFConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Initialize
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[50]"></a>USART2_PowerControl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_PowerControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART2_PowerControl &rArr; USART_PowerControl &rArr; DMA_ChannelUninitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[52]"></a>USART2_Receive</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART2_Receive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = USART2_Receive &rArr; USART_Receive &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Receive
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[51]"></a>USART2_Send</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART2_Send))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = USART2_Send &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Send
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[58]"></a>USART2_SetModemControl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_SetModemControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USART2_SetModemControl &rArr; USART_SetModemControl
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SetModemControl
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[53]"></a>USART2_Transfer</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART2_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = USART2_Transfer &rArr; USART_Transfer &rArr; USART_Receive &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Transfer
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[4f]"></a>USART2_Uninitialize</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART2_Uninitialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART2_Uninitialize &rArr; USART_Uninitialize &rArr; GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Uninitialize
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[e4]"></a>USART_Control</STRONG> (Thumb, 2082 bytes, Stack size 48 bytes, usart_stm32f10x.o(i.USART_Control))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USART_Control &rArr; GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+</UL>
+<BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Control
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_Control
+</UL>
+
+<P><STRONG><a name="[e5]"></a>USART_GetCapabilities</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usart_stm32f10x.o(i.USART_GetCapabilities))
+<BR><BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_GetCapabilities
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_GetCapabilities
+</UL>
+
+<P><STRONG><a name="[e6]"></a>USART_GetModemStatus</STRONG> (Thumb, 144 bytes, Stack size 12 bytes, usart_stm32f10x.o(i.USART_GetModemStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USART_GetModemStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_GetModemStatus
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_GetModemStatus
+</UL>
+
+<P><STRONG><a name="[e7]"></a>USART_GetRxCount</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, usart_stm32f10x.o(i.USART_GetRxCount))
+<BR><BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_GetRxCount
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_GetRxCount
+</UL>
+
+<P><STRONG><a name="[e8]"></a>USART_GetStatus</STRONG> (Thumb, 212 bytes, Stack size 12 bytes, usart_stm32f10x.o(i.USART_GetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USART_GetStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_GetStatus
+<LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_GetStatus
+</UL>
+
+<P><STRONG><a name="[e9]"></a>USART_GetTxCount</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, usart_stm32f10x.o(i.USART_GetTxCount))
+<BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_GetTxCount
+<LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_GetTxCount
+</UL>
+
+<P><STRONG><a name="[eb]"></a>USART_Initialize</STRONG> (Thumb, 162 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART_Initialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = USART_Initialize &rArr; GPIO_AFConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFConfigure
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Initialize
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_Initialize
+</UL>
+
+<P><STRONG><a name="[f5]"></a>USART_PeripheralReset</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, usart_stm32f10x.o(i.USART_PeripheralReset))
+<BR><BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
+</UL>
+
+<P><STRONG><a name="[ec]"></a>USART_PowerControl</STRONG> (Thumb, 494 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART_PowerControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USART_PowerControl &rArr; DMA_ChannelUninitialize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PeripheralReset
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_ChannelUninitialize
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_ChannelInitialize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_PowerControl
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_PowerControl
+</UL>
+
+<P><STRONG><a name="[ed]"></a>USART_Receive</STRONG> (Thumb, 290 bytes, Stack size 32 bytes, usart_stm32f10x.o(i.USART_Receive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = USART_Receive &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Send
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Transfer
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Send
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Receive
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_Receive
+</UL>
+
+<P><STRONG><a name="[ee]"></a>USART_Send</STRONG> (Thumb, 246 bytes, Stack size 32 bytes, usart_stm32f10x.o(i.USART_Send))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32 + In Cycle
+<LI>Call Chain = USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Receive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Transfer
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Receive
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Send
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_Send
+</UL>
+
+<P><STRONG><a name="[ef]"></a>USART_SetModemControl</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, usart_stm32f10x.o(i.USART_SetModemControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USART_SetModemControl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_SetModemControl
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_SetModemControl
+</UL>
+
+<P><STRONG><a name="[f0]"></a>USART_Transfer</STRONG> (Thumb, 106 bytes, Stack size 24 bytes, usart_stm32f10x.o(i.USART_Transfer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = USART_Transfer &rArr; USART_Receive &rArr; USART_Send &rArr;  USART_Receive (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Send
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Receive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Transfer
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_Transfer
+</UL>
+
+<P><STRONG><a name="[f1]"></a>USART_Uninitialize</STRONG> (Thumb, 108 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USART_Uninitialize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USART_Uninitialize &rArr; GPIO_PinConfigure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFConfigure
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Uninitialize
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_Uninitialize
+</UL>
+
+<P><STRONG><a name="[3f]"></a>USARTx_GetVersion</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usart_stm32f10x.o(i.USARTx_GetVersion))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USARTx_GetVersion
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usart_stm32f10x.o(.constdata)
+</UL>
+<P><STRONG><a name="[39]"></a>UART_Callback</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, usbd_user_cdc_acm.o(i.UART_Callback))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = UART_Callback &rArr; USBD_CDC_ACM_DataRead
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_DataRead
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_user_cdc_acm.o(i.USBD_CDC_ACM_PortInitialize)
+</UL>
+<P><STRONG><a name="[f8]"></a>USBD_CDC_ACM_EP_BULKIN_HandleData</STRONG> (Thumb, 144 bytes, Stack size 32 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_BULKIN_HandleData))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = USBD_CDC_ACM_EP_BULKIN_HandleData &rArr; USBD_WriteEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SOF_Event
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKIN_Event
+</UL>
+
+<P><STRONG><a name="[fb]"></a>USBD_CDC_ACM_EP_BULKOUT_HandleData</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, usbd_cdc_acm.o(i.USBD_CDC_ACM_EP_BULKOUT_HandleData))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USBD_CDC_ACM_EP_BULKOUT_HandleData &rArr; USBD_ReadEP &rArr; EP_Status
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_SOF_Event
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CDC_ACM_EP_BULKOUT_Event
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
