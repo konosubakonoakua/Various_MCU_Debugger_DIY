@@ -10,9 +10,8 @@
 
 - [x] ## STLINK V2 bootloader
 
-- [x] ##Jlink V7(废弃，固件不兼容高版本驱动)、
 
-- [ ] ##JLINK OB C8T6版本制作
+- [x] ##J-Link OB-STM32F103 V1版本制作(帶bootloader)
 
 - [x] ##JLINK STLINK V2/V2-1 版本制作
 
