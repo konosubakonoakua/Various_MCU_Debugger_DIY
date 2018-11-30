@@ -1,0 +1,7 @@
+Added Component: Designator=PCB(PCB_100x100)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=PCB-1
+Added Pin To Net: NetName=GND Pin=PCB-2
+Added Pin To Net: NetName=GND Pin=PCB-3
+Added Pin To Net: NetName=GND Pin=PCB-4
+Added Member To Class: ClassName=stm32 Member=Component PCB PCB_100x100
