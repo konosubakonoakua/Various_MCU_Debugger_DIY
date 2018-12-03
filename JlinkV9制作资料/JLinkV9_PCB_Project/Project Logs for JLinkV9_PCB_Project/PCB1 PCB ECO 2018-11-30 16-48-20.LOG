@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=+3V3_ldo Pin=R12-2
-Added Pin To Net: NetName=3V3_ldo Pin=R12-2
-Added Net: Name=3V3_ldo
