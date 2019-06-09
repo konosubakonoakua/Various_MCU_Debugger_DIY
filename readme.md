@@ -14,12 +14,15 @@
 
 🤣某link STLINK V2/V2-1 版本制作2
 
-😳 ARM-Mbed DAPLink 制作
+😳 ARM-Mbed DAPLink 制作（**未完成**）
 
-😳​ BlackMagicProbe 制作
+😳​ BlackMagicProbe 制作（**未完成**）
+
+😳 STLINKV3 制作（**未完成** ）
 
 ------
 
 **想要PCB样板可以联系窝Q1356781673，样板免费:free:，邮费自费:money_with_wings:**
 
 **其他问题请提交issue**
+
